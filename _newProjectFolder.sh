@@ -12,7 +12,7 @@ function mkcdProjectFolder {
 
 # Go to current dir
 CURDIR="${0%/*}"
-FOLDERNAME="/New Project"
+FOLDERNAME="/_New Project"
 NEWDIR="$CURDIR$FOLDERNAME"
 
 echo "$NEWDIR"
