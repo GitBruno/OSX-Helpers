@@ -12,7 +12,7 @@ function mkcdProjectFolder {
 
 # Go to current dir
 CURDIR="${0%/*}"
-FOLDERNAME="/_New Project"
+FOLDERNAME="/_New Book Folder"
 NEWDIR="$CURDIR$FOLDERNAME"
 
 echo "$NEWDIR"
@@ -21,3 +21,5 @@ mkcdProjectFolder "$NEWDIR"
 mkdir "MU"
 mkdir "Supplied"
 mkdir "_Archive"
+
+osascript -e 'tell application "Terminal" to close (every window whose name contains "_newBookFolder")' & exit
