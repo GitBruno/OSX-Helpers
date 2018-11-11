@@ -4,6 +4,8 @@
 
 Services are context aware and show up in OSX Finder contextual menu: `Right Mouse Click > Services > ...`
 
+There are some standard ones too like "New Terminal at Folder" you might want to activate in `System Preferences > Keyboard > Shortcuts > Services > New Terminal at Folder`
+
 - Add date to foldername: Adds current date to the name of the selected folder
 
 - Add readme.txt: Adds a plain text file called readme.txt to the selected folder
