@@ -1,4 +1,4 @@
-# This scripts unhide all files in folder
+# This scripts unhide all files in a folder
 # Run this script with a folder as parameter:
 # $ path/to/script path/to/folder
 
@@ -7,6 +7,7 @@ FOLDER=$1
 
 for file in "$FOLDER"/*
 do
-  echo "Processing $file"
+  echo "Unhiding $file"
+  xattr -d com.apple.FinderInfo "$file"
   chflags nohidden "$file"
 done

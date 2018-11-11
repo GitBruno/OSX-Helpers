@@ -1,5 +1,8 @@
-OSX services
-These services are context aware and show un in the contextual menu (Right Mouse Click > Services > )
+# OSX services
+
+> Services install in ~/Library/Services
+
+Services are context aware and show up in OSX Finder contextual menu: `Right Mouse Click > Services > ...`
 
 - Add date to foldername: Adds current date to the name of the selected folder
 
@@ -21,4 +24,4 @@ These services are context aware and show un in the contextual menu (Right Mouse
 
 - Scale PDF: This creates a new PDF called Binder.PDF on your desktop that is a scaled version of the original PDF and all pages are low-res JPGs this is great for making picturebooks smaller and ready to email
 
-- Unhide files in folder: This is for unhiding finder items.
+- Unhide files in folder: This is for unhiding finder items
